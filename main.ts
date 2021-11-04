@@ -1,11 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    cruiser.turn(Direction.Left, 345)
-})
-input.onButtonPressed(Button.AB, function () {
-    power = 15
+    cruiser.turn(Direction.Right, 45)
 })
 input.onButtonPressed(Button.B, function () {
-    cruiser.turn(Direction.Left, 15)
+    power = 15
 })
 let power = 0
 let cruiser: game.LedSprite = null
